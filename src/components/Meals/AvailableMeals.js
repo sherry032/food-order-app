@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import classes from "./AvailableMeals.module.css"
 import MealItem from "./MealItem"
 import Card from "../UI/Card";
