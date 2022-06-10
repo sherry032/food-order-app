@@ -15,6 +15,7 @@ function App() {
     setCartModalOn(false)
   }
 
+
   return (
     <CartProvider>
       {cartModalOn && <Cart closeModal={closeCartModalHandler} />}
