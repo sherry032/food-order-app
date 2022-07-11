@@ -13,6 +13,7 @@ const useHttp = () =>{
     
     const res = await fetchPro
     const data = await res.json()
+    console.log(res); 
     if(!res.ok) throw new Error("Meals are not found")
     setMeals(data["-N4DEwh6SEkzj4CUZ-Lr"])}
         

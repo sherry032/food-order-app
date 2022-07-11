@@ -7,7 +7,7 @@ import useHttp from "../helpers/useHttp";
 const AvailableMeals = () => {
   const {meals, dataHasError, isLoading, sendRequest} = useHttp()
   useEffect(()=>{
-    sendRequest(`https://moviedata-675bb-default-rtdb.firebaseio.com/meals.json`)
+    sendRequest(`https://meals-8f81d-default-rtdb.firebaseio.com/meals.json`)
   }, [sendRequest])
   let renderContent
   if(isLoading && !dataHasError) renderContent = <li>Loading..</li>

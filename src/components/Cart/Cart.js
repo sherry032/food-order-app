@@ -30,7 +30,7 @@ const Cart = props=>{
             userInfo: userData,
             orderInfo: ctx.items
         }
-        sendRequest("https://moviedata-675bb-default-rtdb.firebaseio.com/orders.json", orderData)
+        sendRequest("https://meals-8f81d-default-rtdb.firebaseio.com/orders.json", orderData)
         setDidSubmit(true)
         ctx.clear()
     }
